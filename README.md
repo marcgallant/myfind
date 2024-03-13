@@ -34,9 +34,7 @@ make clean
 
 ## Supported options
 
-- d: myfind should process each directory’s content before the directory itself. This option fol-
-lows the BSD-family find, and not GNU-find, where -d is not considered as an option, but as an
-expression always evaluating to true. By default, myfind visits directories in pre-order (before
+- d: myfind should process each directory’s content before the directory itself. By default, myfind visits directories in pre-order (before
 their content);
 - H: myfind does not follow symbolic links, except while processing command line arguments;
 - L: myfind follows symbolic links;
